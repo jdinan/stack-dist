@@ -45,10 +45,10 @@ $ ./stack_dist < test_input
 #INF  	        5
 ```
 
-Dist - Distance
-Refs - Number of references that occurred at dist distance
-Refs(%) - Percent of references that occurred at dist distance
-Cum_Ref - Cumulative number of references at dist or less distances
-Cum_Ref(%) - Cumulative percent of references at dist or less distances
-OVFL - Overflow bucket containing all distances greater than the number of buckets
-INF - Infinite distance references (one per item)
+* _Dist_ - Distance
+* _Refs_ - Number of references that occurred at dist distance
+* _Refs(%)_ - Percent of references that occurred at dist distance
+* _Cum_Ref_ - Cumulative number of references at dist or less distances
+* _Cum_Ref(%)_ - Cumulative percent of references at dist or less distances
+* _OVFL_ - Overflow bucket containing all distances greater than the number of buckets
+* _INF_ - Infinite distance references (one per item)
